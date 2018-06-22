@@ -31,4 +31,15 @@ python manage.py migrate
 # create super user
 python manage.py createsuperuser
 
+# create books url
+touch books/urls.py
+
+# create folder template of book
+mkdir books/templates
+
+# books folder
+mkdir books/templates/books
+
+# book list html
+touch books/templates/books/book_list.html
 ```
