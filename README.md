@@ -1,5 +1,8 @@
 # Django Library
 
+
+## Tradition Django Project
+
 ```
 # install django
 pipenv install django==2.0
@@ -42,4 +45,20 @@ mkdir books/templates/books
 
 # book list html
 touch books/templates/books/book_list.html
+```
+
+## Rest Django Project
+
+```
+# install django rest framework
+pipenv install djangorestframework==3.8.2
+
+# create api
+python manage.py startapp api
+
+# create urls for api
+touch api/urls.py
+
+# create serializer
+touch api/serializers.py
 ```

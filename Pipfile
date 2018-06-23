@@ -10,3 +10,4 @@ python_version = "3.5"
 
 [packages]
 django = "==2.0"
+djangorestframework = "==3.8.2"
